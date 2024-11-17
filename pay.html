@@ -64,5 +64,88 @@
             </ul>
         </div>
     </main>
+    <footer class="footer-bs">
+        <div class="row">
+            <div class="col-md-3 footer-brand">
+                <h2>SOCKS</h2>
+                <p>Всемирную паутину образуют миллионы веб-серверов сети Интернет, расположенных по всему миру. Веб-сервер — компьютерная программа, запускаемая на подключённом к сети компьютере и использующая протокол HTTP для передачи данных.</p>
+                <p>© 2024 «SOCKS».</p>
+            </div>
+    
+            <div class="col-md-4 footer-nav">
+                <h4>Меню</h4>
+                <ul class="pages">
+                    <li><a href="#">КАТАЛОГ</a></li>
+                    <li><a href="pay.html">ОПЛАТА І ДОСТАВКА</a></li>
+                    <li><a href="back.html">ПОВЕРНЕННЯ</a></li>
+                    <li><a href="#">Контакти</a></li>
+                </ul>
+                <h4>Правова інформація</h4>
+                <ul class="list">
+                    <li><a href="#">Політика конфіденційності</a></li>
+                    <li><a href="#">Публічна оферта</a></li>
+                    <li><a href="#">Карта сайту</a></li>
+                </ul>
+            </div>
+    
+            <div class="col-md-2 footer-social">
+                <h4>Соц.мережі</h4>
+                <ul>
+                    <!-- <li><a href="#">ВКонтакте</a></li> -->
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Twitter</a></li>
+                </ul>
+            </div>
+    
+            <div class="col-md-3 footer-ns">
+        <h4>Підписка на новини</h4>
+        <p>Підпишіться на нашу новостную рассылку, щоб не пропустити нічого важливого!</p>
+        <div class="input-group">
+            <input type="email" class="form-control" placeholder="Введіть свій email..." required>
+            <button class="btn btn-subscribe" type="submit">Підписатися</button>
+        </div>
+    </div>
+    
+        </div>
+    </footer>
+    <section class="reviews">
+        <h2>Відгуки</h2>
+        <div class="review">
+            <div class="stars">
+                ★★★★☆
+            </div>
+            <p class="review-text">Чудовий комплект! Шапка тепла і стильна, рекомендую!</p>
+            <p class="review-author">– Олена Іванова</p>
+        </div>
+    
+        <div class="review">
+            <div class="stars">
+                ★★★★★
+            </div>
+            <p class="review-text">Відмінна якість, швидка доставка. Дякую!</p>
+            <p class="review-author">– Ігор Петров</p>
+        </div>
+    
+        <!-- Форма для добавления нового отзыва -->
+        <div class="add-review">
+            <h3>Залишити відгук</h3>
+            <form id="reviewForm">
+                <label for="rating">Оцінка:</label>
+                <select id="rating" name="rating" required>
+                    <option value="5">5 зірок</option>
+                    <option value="4">4 зірки</option>
+                    <option value="3">3 зірки</option>
+                    <option value="2">2 зірки</option>
+                    <option value="1">1 зірка</option>
+                </select>
+    
+                <label for="reviewText">Ваш відгук:</label>
+                <textarea id="reviewText" name="reviewText" required placeholder="Напишіть ваш відгук..."></textarea>
+    
+                <button type="submit">Відправити відгук</button>
+            </form>
+        </div>
+    </section>
 </body>
 </html>
